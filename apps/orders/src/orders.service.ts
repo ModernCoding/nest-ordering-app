@@ -11,7 +11,7 @@ export class OrdersService {
   }
 
   async getOrders() {
-    return this.ordersRepository.find()
+    return this.ordersRepository.find({})
   }
   
 }
